@@ -28,12 +28,12 @@
     <div id="main"></div>
     <div id="marker"></div>
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="http://localhost:9582/socket.io/socket.io.js"></script>
+    <script src="http://178.62.211.227:9582/socket.io/socket.io.js"></script>
     <script>
     (function () {
       var main = $("#main")
       var marker = $("#marker")
-      var socket = io("http://localhost:9582")
+      var socket = io("http://178.62.211.227:9582")
 
       main.mousemove(function (e) {
         var offset = main.offset()
